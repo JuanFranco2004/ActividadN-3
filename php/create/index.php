@@ -12,7 +12,7 @@
 <body>
     <?php
         require_once dirname(__FILE__,3).'/php/config/menu.php';
-        ?>
+     ?>
 <div class="container-md">
     <h2>Creación de registro</h2>
     <form action="create.php" method="post" id="formCreate">
@@ -35,7 +35,7 @@
             <div class="mb-3">
                 <input class= "btn btn-primary" type="submit" value = "Guardar">
             </div>
-            </form>
+            </form>  
         </div>
 </body>
     <?php
